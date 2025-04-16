@@ -10,14 +10,14 @@ Upload a chest X-ray image, and the app will analyze it using a trained Convolut
 
 ## 🧠 Model
 
-- Trained on a dataset of labeled chest X-ray images (e.g., from Kaggle or ChestX-ray14).
+- Trained on a dataset of labeled chest X-ray images 
 - CNN architecture (e.g., based on VGG16, MobileNet, or a custom model).
 - Model saved as `best_model.h5`.
 
 ## 🖥️ Technologies Used
 
 - Python 🐍
-- TensorFlow / Keras 🤖
+- TensorFlow 
 - Streamlit 📊
 - PIL / NumPy
 
@@ -33,5 +33,5 @@ You can test the app using sample chest X-ray images of:
 
 1. **Clone the repo**
 ```bash
-git clone https://github.com/your-username/pneumonia-xray-detector.git
-cd pneumonia-xray-detector
+git clone https://github.com/PrabhudattaPatra/Detecting_Pneumonia-.git
+cd Detecting_Pneumonia-
