@@ -1,37 +1,37 @@
-# 🪱 Pneumonia Detection from Chest X-Ray
+# Pneumonia Detection from Chest X-Ray
 
 This project is a web-based application built using **Streamlit** and **TensorFlow** that detects whether a chest X-ray image shows signs of **Pneumonia** or is **Normal**.
 
-## 🚀 Demo
+##  Demo
 
 Upload a chest X-ray 4D image, and the app will analyze it using a trained Convolutional Neural Network (CNN) to predict:
 - **NORMAL**
 - **PNEUMONIA**
 
-## 🧠 Model
+## Model
 
 - Trained on a dataset of labeled chest X-ray images (sourced from Kaggle).
 - Used a custom Convolutional Neural Network (CNN) model.
 - Model trained and evaluated on separate train, validation, and test sets.
 - Final model saved as `best_model.h5`.
 
-### 🔍 Model Performance
+###  Model Performance
 
 ![image](https://github.com/user-attachments/assets/2a1fc1d2-ba16-4976-a318-26fdb4139ccd)
 
 
 > The model prioritizes high **recall** for Pneumonia (important in medical diagnosis), even at the cost of some false positives.
 
-## 🖥️ Technologies Used
+## Technologies Used
 
-- Python 🐍
+- Python 
 - TensorFlow 
-- Streamlit 📊
+- Streamlit 
 - Matplotlib & Seaborn
 - Scikit-learn (for evaluation metrics)
 - PIL / NumPy
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── chest_xray/              # Dataset (train/val/test folders)
@@ -41,7 +41,7 @@ Upload a chest X-ray 4D image, and the app will analyze it using a trained Convo
 ├── README.md                # Project documentation
 ```
 
-## 📸 Sample Images
+## Sample Images
 
 You can test the app using chest X-ray images of:
 - Healthy lungs (**NORMAL**)
@@ -49,7 +49,7 @@ You can test the app using chest X-ray images of:
 
 Sample predictions and error analysis (false positives/negatives) are also visualized in the notebook.
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 1. **Clone the repo**
 ```bash
@@ -67,19 +67,17 @@ pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
 
-## 📊 Results & Analysis
+## Results & Analysis
 
 - Confusion Matrix, Classification Report, and misclassified image samples provided.
 - High Pneumonia recall makes this model useful for screening purposes.
 - Error analysis revealed the model sometimes mislabels clear NORMAL cases as PNEUMONIA.
 
-## 💡 Future Improvements
+## Future Improvements
 
 - Improve NORMAL class recall.
 - Experiment with transfer learning (e.g., EfficientNet).
 - Deploy as a web service or mobile app.
 
-## 👨‍⚕️ Disclaimer
-This tool is intended for educational and research purposes only. It is **not a substitute for professional medical diagnosis**.
 
 
